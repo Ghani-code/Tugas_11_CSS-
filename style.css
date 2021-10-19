@@ -1,0 +1,42 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+ul {
+  list-style: none;
+  margin-top: 14px;
+}
+
+ul li {
+  display: inline-block;
+}
+ul li a {
+  text-decoration: none;
+  color: white;
+  padding-left: 20px;
+  font-weight: 200px;
+  font-size: larger;
+}
+header {
+  background-color: black;
+  height: 60px;
+}
+main {
+  padding: 20px;
+  padding-bottom: 50px;
+}
+p {
+  column-count: 4;
+  column-rule: 3px solid black;
+  column-fill: balance;
+  text-align: justify;
+}
+h3 {
+  column-span: all;
+}
+footer {
+  text-align: center;
+  background-color: black;
+  height: 50px;
+  color: white;
+}
